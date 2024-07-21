@@ -1,0 +1,12 @@
+name: scraping
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - requests=2.32.3
+  - beautifulsoup4=4.12.3
+  - selenium=4.22.0
+  - pip
+  - pip:
+    - webdriver_manager==4.0.1
